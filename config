@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/599liyuanyuan/-----.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "master"]
+	url = https://github.com/599liyuanyuan/test.git
+	fetch = +refs/heads/*:refs/remotes/master/*
+[remote "test"]
+	url = https://github.com/bilibili/DanmakuFlameMaster.git
+	fetch = +refs/heads/*:refs/remotes/test/*
